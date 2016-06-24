@@ -9,7 +9,7 @@
 import UIKit
 import Parse
 
-class RequestFormViewController: UIViewController {
+class RequestFormViewController: UIViewController,UITextFieldDelegate {
 
     var contact: String?
     var email: String?
@@ -27,6 +27,10 @@ class RequestFormViewController: UIViewController {
         // Do any additional setup after loading the view.
         self.title = "Request Form"
         contactTxtField.text = PFUser.currentUser()?.username
+        
+        contactTxtField.delegate = self
+        emailTxtField.delegate = self
+        nameTxtField.delegate = self
     }
 
     //Action when user taps on Choose plan
@@ -83,6 +87,15 @@ class RequestFormViewController: UIViewController {
         optionsMenu.addAction(cancelAction)
         
         self.presentViewController(optionsMenu, animated: true, completion: nil)
+    }
+    
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
     }
     
     override func didReceiveMemoryWarning() {
