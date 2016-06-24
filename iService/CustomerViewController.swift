@@ -192,7 +192,7 @@ class CustomerViewController: UIViewController,MKMapViewDelegate {
 
     //Action when "Service My Car" is tapped which is at the bottom of the screen
     @IBAction func serviceMyCarTapped(sender: AnyObject) {
-        
+        print("Service my car tapped")
     }
     
     //Prepare for segue. Used to logout.
