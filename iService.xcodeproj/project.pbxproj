@@ -34,6 +34,8 @@
 		46935F671D170F2F0025190E /* ShowCustomerOnMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46935F661D170F2F0025190E /* ShowCustomerOnMapVC.swift */; };
 		46935F751D174D230025190E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46935F741D174D230025190E /* GoogleService-Info.plist */; };
 		46C7EE5B1D166AE4004C98AE /* CustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C7EE5A1D166AE4004C98AE /* CustomerViewController.swift */; };
+		46E55F881D1D14650001D532 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E55F851D1D14650001D532 /* KaedeTextField.swift */; };
+		46E55F891D1D14650001D532 /* TextFieldsEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E55F861D1D14650001D532 /* TextFieldsEffects.swift */; };
 		4E9A4545BF28824DC785A632 /* Pods_iService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86636EA1007B514F08E910BC /* Pods_iService.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +70,9 @@
 		46935F661D170F2F0025190E /* ShowCustomerOnMapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowCustomerOnMapVC.swift; sourceTree = "<group>"; };
 		46935F741D174D230025190E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		46C7EE5A1D166AE4004C98AE /* CustomerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerViewController.swift; sourceTree = "<group>"; };
+		46E55F851D1D14650001D532 /* KaedeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KaedeTextField.swift; sourceTree = "<group>"; };
+		46E55F861D1D14650001D532 /* TextFieldsEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldsEffects.swift; sourceTree = "<group>"; };
+		46E55F871D1D14650001D532 /* TextFieldEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldEffects.h; sourceTree = "<group>"; };
 		86636EA1007B514F08E910BC /* Pods_iService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA13FE6CFFE7F43A6FD157F /* Pods-iService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iService.release.xcconfig"; path = "Pods/Target Support Files/Pods-iService/Pods-iService.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -183,6 +188,9 @@
 				4633FCD11D155FAD00E41692 /* SignUpViewController.swift */,
 				466400851D19EE1500B689B0 /* CarAnnotation.swift */,
 				46935F621D16F5D60025190E /* User.swift */,
+				46E55F851D1D14650001D532 /* KaedeTextField.swift */,
+				46E55F861D1D14650001D532 /* TextFieldsEffects.swift */,
+				46E55F871D1D14650001D532 /* TextFieldEffects.h */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -330,6 +338,7 @@
 			files = (
 				46C7EE5B1D166AE4004C98AE /* CustomerViewController.swift in Sources */,
 				46935F671D170F2F0025190E /* ShowCustomerOnMapVC.swift in Sources */,
+				46E55F881D1D14650001D532 /* KaedeTextField.swift in Sources */,
 				46935F651D16FFFA0025190E /* AdminTableViewController.swift in Sources */,
 				466400861D19EE1500B689B0 /* CarAnnotation.swift in Sources */,
 				4633FCD21D155FAD00E41692 /* SignUpViewController.swift in Sources */,
@@ -337,6 +346,7 @@
 				46935F631D16F5D60025190E /* User.swift in Sources */,
 				46822EEC1D1423D600E921B0 /* AppDelegate.swift in Sources */,
 				462500361D1B1C7F00C6F0D6 /* RequestFormViewController.swift in Sources */,
+				46E55F891D1D14650001D532 /* TextFieldsEffects.swift in Sources */,
 				466400841D19ED9400B689B0 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
